@@ -7,9 +7,43 @@ const changeContent = (index) => {
     5: "You can’t do much if your site doesn’t have power. At Hammond Electrical we help you stay connected for the life of your construction projects. Whether it’s a short-term project or an emergency supply, and with both overhead and underground connection options, we help you provide a safe, reliable power supply for your site, wherever you are.",
   };
   const content = document.getElementById("content");
-
   content.textContent = paragraphs[index];
 
-  const active__flex = document.getElementById("active__flex");
-  active__flex.classList.add("highlighted");
+  const spans = document.querySelectorAll(".tabs__card span");
+  spans.forEach(function (span, index1) {
+    if (index1 === index - 1) {
+      span.classList.add("highlighted");
+    } else {
+      span.classList.remove("highlighted");
+    }
+  });
+
+  const tabs = document.querySelectorAll(".tabs__card");
+
+  tabs.forEach(function (tab, index2) {
+    if (index2 === index - 1) {
+      tab.classList.add("active");
+    } else {
+      tab.classList.remove("active");
+    }
+  });
+
+  const tabs__svg = document.querySelectorAll(".tabs__svg");
+
+  tabs__svg.forEach(function (tab_svg, index3) {
+    if (index3 === index - 1) {
+      tab_svg.classList.add("svg_border");
+    } else {
+      tab_svg.classList.remove("svg_border");
+    }
+  });
+
+  const svgs = document.querySelectorAll(".tabs__svg svg");
+  svgs.forEach(function (svg, index4) {
+    if (index4 === index - 1) {
+      svg.classList.add("svg_fill");
+    } else {
+      svg.classList.remove("svg_fill");
+    }
+  });
 };
