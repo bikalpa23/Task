@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+header {
+    background-color: #002643;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: -30px;
+
+}
+
+li {
+    padding-left: 20px;
+    color: white;
+    justify-content: space-between;
+}
+
+.primary-button {
+    margin: -4px 50px 8px 20px;
+    background-color: #002643;
+    border: 2px solid #C1283C;
+    color: #C1283C;
+    padding: 0px 16px 0px 20px;
+}
+
+/* sir ko wala*/
+.container-gen{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.herobanner{
+    min-height: calc(100vh - 82px);
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+     overflow: hidden;
+}
+.herobanner-background, .herobanner-background img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.herobanner-background{
+    z-index: -1;
+}
+
+.commercial{
+    padding: 4rem 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.commercial-heading {
+    padding: 20px;
+    flex: 0 0 30%;
+}
+
+.commercial-info {
+    padding: 20px;
+    flex: 0 0 70%;
+
+}
+.commercial-heading .comhead::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 3px;
+    background-color: red;
+    margin-top: 1rem;
+}
+.three-col{
+    background-color: #0049B6;
+    display: flex;
+    justify-content: space-around;
+}
+.three-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Second */
+ .checkbox-ul{
+    list-style: none;
+    color: rgb(5, 5, 5);
+} 
+.checkbox-ul li{
+    position: relative;
+    min-height: 20px;
+    padding-left: 35px;
+}
+.checkbox-ul li+li{
+    margin-top: 20px;
+}
+.checkbox-ul li::before{
+    content: "";
+    background: transparent url('./Assets/tick.png') no-repeat scroll 0 0 / cover;
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.checkbox{
+    padding: 50px 0;
+}
+/* .triangle{
+    width:100px;
+    height:100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    border-width: 40px 20px 40px 0  ;
+    border-style: solid;
+    border-color:transparent green transparent blue ;
+}  */
+.checkbox-ul li{
+    color: red;
+}

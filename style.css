@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  background-color: black;
+  margin: auto;
+}
+.row {
+  background-color: bisque;
+}
+.col-brown {
+  background-color: brown;
+  height: 40px;
+}
+.col-yellow {
+  background-color: yellow;
+  height: 28px;
+}
+.col-blue {
+  background-color: blue;
+  height: 28px;
+}
+.col-green {
+  background-color: greenyellow;
+  height: 300px;
+}
+.col-red {
+  background-color: red;
+  width: 50%;
+  flex: 0 0 50%;
+}

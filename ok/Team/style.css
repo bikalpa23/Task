@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@font-face {
+    font-family: "bignoodle";
+    src: url("assets/bignoodle.ttf") format("truetype");
+}
+
+body {
+    color: #404040;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: "bignoodle";
+}
+
+button {
+    letter-spacing: 1px;
+    font-family: "bignoodle";
+    font-size: 19px;
+    font-weight: 500;
+    border: 2px solid #c1283c;
+    padding: 4px 31px;
+    transition: 0.2s ease-in-out 0s;
+    color: #c1283c;
+    background-color: transparent;
+}
+
+h2 {
+    font-family: "bignoodle";
+    font-size: 53px;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+    text-transform: uppercase;
+    color: #0049b6;
+    padding-bottom: 12px;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif;
+    color: #002643;
+    padding-bottom: 50px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+span {
+    font-weight: 600;
+    color: #002643;
+}
+
+a {
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.2s ease-in-out 0s;
+    font-family: "bignoodle";
+    /* padding: 10px; */
+}
+
+.header-container {
+    background-color: #002643;
+    padding: 15px 38px;
+}
+
+.header-navbar {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    padding-left: 12px;
+}
+
+.header-navbar ul li:nth-child(2) {
+    margin-right: 2px;
+}
