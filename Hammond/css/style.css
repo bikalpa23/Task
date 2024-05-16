@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@font-face {
+    font-family: "bignoodle";
+    src: url(/assets/images/bignoodle.ttf) format("truetype");
+}
+
+:root {
+    --primary-color: #002643;
+    --secondary-color: #c1283c;
+    --primary-text: #0049b6;
+    --secondary-text: #404040;
+}
+
+.container {
+    max-width: 1165px;
+    padding: 0 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    font-family: "bignoodle";
+    color: var(--secondary-text);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "bignoodle";
+    font-size: 53px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--primary-text);
+    padding-bottom: 12px;
+}
+
+a {
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+    font-family: "bignoodle";
+}
+
+
+
+li {
+    list-style-type: none;
+}
+
+span {
+    display: block;
+}
+
+.gbl-btn {
+    height: 45px;
+    padding: 0 30px;
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    background-color: #fff;
+    display: inline-block;
+    font-family: "bignoodle";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.nav-container {
+    background-color: var(--primary-color);
+    padding: 15px 38px;
+}
+
+.container {
+    max-width: 1165px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+    margin-inline: -10px;
+}
+
+/* for using Gap constant */
+.flex>div{
+    padding-inline: 10px;
+}
+.rev{
+    flex-direction: row-reverse;
+}
+/* .gap{
+    gap: 20px;
+} */
+.col-40{
+    flex: 0 0 40%;
+}
+.col-60{
+    flex: 0 0 60%;
+}
+.col-33{
+    flex: 0 0 33%;
+}
+.col-45{
+    flex:0 0 45%;
+}
+.col-55{
+    flex: 0 0 55%;
+}
