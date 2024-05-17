@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Overlay</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./assets/images/vid.jpg" alt="Background Image" class="background-image">
+        <div class="overlay">
+            <div class="play-button-container">
+                <svg class="curve-text" viewBox="0 0 200 50">
+                    <path id="curve" d="M10,40 C60,10 140,10 190,40" fill="transparent"/>
+                    <text width="200">
+                        <textPath href="#curve">
+                            PLAY VIDEO
+                        </textPath>
+                    </text>
+                </svg>
+                <div class="play-button">
+                    <a href="your-video-link" class="play-link">
+                        <div class="play-icon">&#9658;</div>
+                    </a>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="arrow left-arrow">&lt;</div>
+                <span class="text">"When you get them to come onto your project, it's going to get done right"</span>
+                <div class="arrow right-arrow">&gt;</div>
+            </div>
+            <div class="client-info">
+                <p>Mark McNally</p>
+                <p>Managing Director of McNally Group</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
