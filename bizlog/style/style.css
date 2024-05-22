@@ -702,6 +702,8 @@ footer {
 .description p {
     font-size: 14px;
     text-align: justified;
+    padding-top: 10px;
+
 }
 
 .four-des span {
@@ -848,4 +850,367 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #DDDDDD;
+}
+
+/* Advertise Section */
+
+
+.adver {
+    padding: 20px 0;
+}
+
+.adver h1 {
+    font-size: 30px;
+    line-height: 48px;
+}
+
+.adver h2 {
+    font-size: 22px;
+    line-height: 43.2px;
+}
+
+.adver p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.content-container {
+    background-color: black;
+    justify-content: space-evenly;
+
+}
+
+
+.content {
+    padding: 20px 0;
+}
+
+.content h2 {
+    color: #01AFA6;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 67.2px;
+}
+
+.content span {
+    font-size: 14px;
+    color: white;
+}
+
+.two-content {
+    background-color: #01B5E1;
+    padding-bottom: 20px;
+}
+
+.two-conatiner p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.two-conatiner h2 {
+    color: black;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 35.2px;
+    padding-bottom: 22px;
+}
+
+.two-conatiner {
+    padding-left: 20px;
+}
+
+.two-content-container {
+    gap: 30px;
+}
+
+.two-container-image {
+    justify-content: space-between;
+}
+
+.two-conatiner {
+    padding-top: 22px;
+}
+
+.featured-image-title span {
+    padding-left: 62px;
+    color: white;
+}
+
+.featured-image-1,
+.featured-image-2 {
+    width: 233px;
+    height: 226px;
+    position: relative;
+}
+
+.featured-image-1 img,
+.featured-image-2 img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.featured-image-1::before {
+    content: "";
+    display: block;
+    background: url("../assets/img/Arrow.png") 0px 0px / contain no-repeat scroll transparent;
+    height: 16px;
+    width: 42px;
+    position: absolute;
+    bottom: 71px;
+    left: -24px;
+    /* inset: 0px; */
+}
+
+.featured-image-2::after {
+    content: "";
+    display: block;
+    background: url("../assets/img/down-arrow.png") 0px 0px / contain no-repeat scroll transparent;
+    height: 34px;
+    width: 17px;
+    position: absolute;
+    left: 205px;
+    top: -30px;
+}
+
+.banner-ads {
+    background-color: black;
+}
+
+.banner-ads-title,
+.second-heading {
+    color: white;
+}
+
+.second-heading {
+    flex-direction: column;
+
+    & span {
+        display: block;
+    }
+
+    justify-content: space-between;
+}
+
+.second-heading span {
+    display: block;
+}
+
+.banner-ads-title h1,
+.second-heading h1 {
+    padding-bottom: 10px;
+}
+
+.banners-ad {
+    padding-left: 20px;
+    gap: 130px;
+}
+
+.banner-ads-title p,
+.second-heading span {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.photo-image {
+    width: 228px;
+    height: 276px;
+    position: relative;
+}
+
+.photo-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.photo-container {
+    background-color: black;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+
+.photo-arrow1::before {
+    content: "";
+    display: block;
+    background: url(../assets/img/Arrow.png) 0px 0px / contain no-repeat scroll transparent;
+    height: 27px;
+    width: 49px;
+    position: absolute;
+    /* bottom: 71px; */
+    left: -11px;
+    /* inset: 0px; */
+    top: 13px;/
+}
+
+.photo-arrow1::after {
+    content: "";
+    display: block;
+    background: url(../assets/img/arrow-up.png) 0px 0px / contain no-repeat scroll transparent;
+    height: 48px;
+    width: 17px;
+    position: absolute;
+    left: 205px;
+    top: 46px;
+}
+
+.photo-arrow-2::before {
+    content: "";
+    display: block;
+    background: url(../assets/img/Arrow.png) 0px 0px / contain no-repeat scroll transparent;
+    height: 27px;
+    width: 49px;
+    position: absolute;
+    /* bottom: 71px; */
+    left: -12px;
+    /* inset: 0px; */
+    top: 144px;
+
+}
+
+.photo-arrow-4::before {
+    content: "";
+    display: block;
+    background: url(../assets/img/Arrow.png) 0px 0px / contain no-repeat scroll transparent;
+    height: 27px;
+    width: 49px;
+    position: absolute;
+    bottom: 39px;
+    left: -11px;
+}
+
+.photo-arrow-5::after {
+    content: "";
+    display: block;
+    background: url(../assets/img/arrow-up.png) 0px 0px / contain no-repeat scroll transparent;
+    height: 48px;
+    width: 17px;
+    position: absolute;
+    left: 205px;
+    top: 120px;
+}
+
+.photo-arrow-7::after {
+    content: "";
+    display: block;
+    background: url(../assets/img/Arrow.png) 0px 0px / contain no-repeat scroll transparent;
+    height: 27px;
+    width: 49px;
+    position: absolute;
+    /* bottom: 71px; */
+    left: -12px;
+    /* inset: 0px; */
+    top: 122px;
+}
+
+.ideal-desc p {
+    align-content: center;
+    padding-top: 20px;
+    font-size: 13px;
+    padding-left: 250px;
+}
+
+.ideal {
+    padding-top: 20px;
+    background-color: #F9F9F9;
+}
+
+.ideal h1 {
+    font-size: 24px;
+}
+
+.info p {
+    font-size: 13px;
+}
+
+/*  */
+
+.form-main-container {
+    display: flex;
+    padding: 20px;
+    gap: 100px;
+}
+
+.left-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.right-form {
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.text {
+    font-size: 10px;
+    align-items: left;
+    align-content: center;
+}
+
+/* Visionaries */
+
+.description {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.description span {
+    font-size: 13px;
+    text-align: justified;
+
+}
+
+.right-form {
+    padding-top: 20px;
+}
+
+/* Contact US */
+
+.info p {
+    font-size: 13px;
+}
+
+.info span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: justified;
 }
