@@ -47,8 +47,20 @@
     margin-top: 32px;
 }
 
+.mt-3 {
+    margin-top: 40px;
+}
+
 .mt-4 {
     margin-top: 64px;
+}
+
+.fo-1 {
+    font-size: 14px;
+}
+
+.fo-2 {
+    font-size: 13px;
 }
 
 body {
@@ -267,9 +279,13 @@ li {
 }
 
 .h4-headingall {
-    font-size: 1.5rem;
-    font-weight: 900;
-    font-family: "Poppins", sans-serif;
+
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+
 }
 
 .technology {
@@ -880,6 +896,9 @@ footer {
 
 }
 
+.two-col ul li {
+    font-size: 13px;
+}
 
 .content {
     padding: 20px 0;
@@ -1108,6 +1127,7 @@ footer {
     padding-top: 20px;
     font-size: 13px;
     padding-left: 250px;
+    padding-bottom: 30px;
 }
 
 .ideal {
@@ -1213,4 +1233,230 @@ a:hover {
     font-weight: 700;
     line-height: 28px;
     text-align: justified;
+}
+
+/* Agreement */
+
+.two-col h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    padding-bottom: 20px
+}
+
+.two-col p {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.two-cols h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    padding-bottom: 20px
+}
+
+.two-cols p {
+    font-size: 13px;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+/* MarketPlace */
+
+.two-con p {
+    font-size: 14px;
+}
+
+.market-container ul li {
+    font-size: 13px;
+}
+
+.lists {
+    padding-top: 12px;
+}
+
+.market-image {
+    width: 100%;
+    height: auto;
+}
+
+
+.market-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 30px;
+}
+
+/* Error Page 404 */
+
+.error-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.tic-tac-toe {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 24px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.row:nth-child(2) .cell {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.cell:nth-child(2) {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.home-button {
+    color: #fff;
+    padding: 5px 38px;
+    background: linear-gradient(90deg, #01afa6 0%, #01b5e1 100%);
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 8pc;
+}
+
+.page-not h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+}
+
+.page-not {
+    text-align: center;
+}
+
+/* Market */
+
+.market-cont {
+    justify-content: space-between;
+}
+
+.button-back {
+    padding: 9px 30px 9px 30px;
+    gap: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* MarketCOntent */
+
+
+.company-view button {
+    background: linear-gradient(90deg, #01afa6 0%, #01b5e1 100%);
+    padding: 7px 19px;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+}
+
+.logo-holder {
+    margin-left: 25px;
+    height: 60px;
+    width: 60px;
+}
+
+.logo-holderimg {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31.2px;
+}
+
+.company-desc p {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.title span {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.company-list-holder {
+    align-items: center;
+    gap: 30px;
+    flex: 0 0 calc(70% -20px);
+}
+
+.company-sect {
+    flex: 0 0 calc(30% - 15px);
+    gap: 30px;
+}
+
+.company-list {
+    gap: 30px;
+}
+
+.market-section-title h3 {
+    font-size: 36px;
+}
+
+.market-section-title span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28.8px;
+}
+
+.established {
+    text-align: center;
+}
+
+.estblished span:nth-child(1) {
+    font-size: 14px;
+    display: block;
+}
+
+.estblished span:nth-child(2) {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+
+.company-holder {
+    border: 0.1px solid rgb(125, 125, 125, 0.2);
+}
+
+.readmores {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.form-group input::placeholder {
+    color: #fff;
+}
+
+.form-group textarea::placeholder {
+    color: #fff;
+}
+
+.input-field input::placeholder {
+    color: #fff;
 }
