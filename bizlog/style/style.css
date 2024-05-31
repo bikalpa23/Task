@@ -80,6 +80,7 @@ li {
 .main-container {
     display: flex;
     max-width: 1470px;
+    /* max-width: 1900px; */
     margin: 0 auto;
 }
 
@@ -99,8 +100,9 @@ li {
 }
 
 .sidenav .logo img {
-    height: 50px;
-    margin-left: 10px;
+    height: 47px;
+    margin-left: -2px;
+    margin-top: 2px;
 }
 
 
@@ -108,11 +110,10 @@ li {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.sidenav .nav-links a {
-    padding: 15px 20px;
+.nav-links a {
+    padding: 9px 7px;
     text-decoration: none;
     font-size: 18px;
     color: #818181;
@@ -128,13 +129,18 @@ li {
     background-color: #575757;
 }
 
-.search {
-    margin-left: -98px;
+.advertise span {
+    font-family: Helvetica;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+
 }
 
 .advertise {
-    max-width: 700px;
-    margin-left: auto;
+    max-width: 780px;
+    margin-left: 100px;
     margin-right: auto;
 }
 
@@ -150,9 +156,13 @@ li {
 }
 
 .hero-banner span:nth-child(1) {
-    font-size: 2rem;
     text-transform: capitalize;
-    font-weight: 900;
+    font-size: 38px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    padding-bottom: 10px;
 }
 
 .hero-banner span:nth-child(2) {
@@ -167,6 +177,7 @@ li {
 .hero-banner-image {
     width: 100%;
     height: 100%;
+    padding-top: 14px;
 }
 
 .hero-banner-image img {
@@ -212,6 +223,7 @@ li {
 .four-section {
     text-align: center;
     background: linear-gradient(90deg, #01AFA6 0%, #01B5E1 100%);
+
 }
 
 .four-section-heading {
@@ -257,7 +269,11 @@ li {
 }
 
 .recent-post-caption p {
-    font-size: 17px;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
 
 .recent-post-caption span {
@@ -273,28 +289,26 @@ li {
 }
 
 .recent-post-img img {
-    width: 273px;
-    height: 100;
+    /* width: 100%;
+    height: 100%; */
     object-fit: cover;
 }
 
 .h4-headingall {
-
     font-family: Poppins;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 43.2px;
     text-align: left;
-
 }
 
 .technology {
     color: #2DF8BB;
-    font-size: 7px;
-    font-weight: 900;
-    font-family: "Poppins", sans-serif;
-    display: block;
-    padding-bottom: 1rem;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.4px;
+    text-align: left;
+    padding-bottom: 10px;
 }
 
 .recent-post-title h5 {
@@ -314,15 +328,20 @@ li {
 .author span:nth-child(1) {
     /* color: rgb(87, 85, 85); */
     color: black;
+    /* font-size: 12px; */
+    /* font-weight: 600; */
+    /* font-family: Helvetica; */
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
 }
 
 .author span:nth-child(2) {
-    color: rgb(87, 85, 85);
-    font-size: 10px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: left;
 }
 
 .line {
@@ -339,9 +358,13 @@ li {
     object-fit: cover;
 }
 
-.small-ad-area h5 {
-    font-size: 1.4rem;
-    font-family: 900;
+.small-ad-areas span {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    margin-top: -90px;
 }
 
 .small-ad-area {
@@ -470,9 +493,11 @@ li {
 }
 
 .features-post-details p {
-    font-family: "Poppins";
+    font-family: Helvetica;
+    font-size: 15px;
     font-weight: 400;
-    color: rgb(65, 64, 64);
+    line-height: 28px;
+    text-align: left;
 }
 
 .featured-post-author1 {
@@ -784,6 +809,7 @@ footer {
 .double-quotes {
     width: auto;
     text-align: center;
+
 }
 
 .testi-title {
@@ -860,7 +886,7 @@ footer {
 
 .small-ad-areas {
     max-width: 620px;
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 8px;
     gap: 30px;
     justify-content: center;
@@ -883,6 +909,7 @@ footer {
 .adver h2 {
     font-size: 22px;
     line-height: 43.2px;
+    padding-top: 20px;
 }
 
 .adver p {
@@ -1459,4 +1486,248 @@ a:hover {
 
 .input-field input::placeholder {
     color: #fff;
+}
+
+/* Hamburger Menu */
+
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: rgba(0, 0, 0, 1);
+    border: 1.55px solid rgba(0, 0, 0, 1);
+
+    margin: 4px 0;
+    transition: 0.4s ease;
+}
+
+.menu-toggle .bar:last-child {
+    height: 3px;
+    width: 20px;
+    display: block;
+    margin-left: 5px !important;
+    border: 1.55px solid rgba(0, 0, 0, 1);
+    margin: 4px 0;
+    transition: 0.4s ease;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba((0), 0, 0, 0.5);
+    z-index: 999;
+}
+
+.cross-container {
+    display: none;
+}
+
+.tech-toggle1 {
+    display: none;
+}
+
+.logo,
+.cross {
+    display: none;
+}
+
+/* ---------------- BREAKING- POINT --------------- */
+
+@media screen and (max-width: 768px) {
+    .newsnoffer-section {
+        display: none;
+    }
+
+    .recent-post-holder {
+        flex-direction: column;
+    }
+
+    .img-title-holder {
+        flex-direction: column;
+    }
+
+    .tech-toggle {
+        display: none;
+    }
+
+    .tech-toggle1 {
+        display: block;
+        font-size: 19px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidenav {
+        background-color: #dddddd;
+
+        padding-left: 8px;
+
+        position: fixed;
+        /* left: -768px; */
+        left: -980px;
+        top: 0;
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        z-index: 999;
+    }
+
+    .h4-headingall {
+        font-weight: 800;
+        padding-bottom: 20px;
+        font-family: "Poppins", sans-serif;
+        letter-spacing: 0;
+    }
+
+    .cross-container {
+        background-color: #dddddd;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & span {
+            color: #000000;
+            padding-right: 20px;
+            font-weight: 800;
+        }
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        width: 100%;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .overlay.active {
+        display: block;
+    }
+
+    .sidenav.active {
+        left: 0;
+    }
+
+    header {
+        align-items: center;
+        width: 100%;
+        position: static;
+        gap: 0;
+        flex-direction: row;
+
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .logo-m {
+        display: flex;
+        align-items: center;
+        gap: 277px;
+    }
+
+    .logo,
+    .cross {
+        display: block;
+    }
+
+    .cross {
+        cursor: pointer;
+    }
+
+    .logo {
+        height: 100px;
+        width: 100px;
+    }
+
+    .logo img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .side-container {
+        padding: 0 20px;
+    }
+
+    .main-container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .advertise-section {
+        display: none;
+    }
+
+    .main-container {
+        max-width: 768px;
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        flex: 0 0 100%;
+
+        height: 100vh;
+        justify-content: space-between;
+    }
+
+
+
+    .sec-footer-col {
+        display: block;
+    }
+
+    .no-flex {
+        display: block;
+    }
+
+    .quick-links {
+        display: none;
+    }
+
+    .mobile-quicklinks-legal {
+        display: block;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .quick-links-1 ul li a {
+        font-size: 11px;
+        color: black;
+    }
+
+    .social-media-area {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .four-section {
+        display: none;
+    }
+
+    .advertise {
+        display: none;
+    }
+
+    .three-col-sec {
+        display: none;
+    }
 }

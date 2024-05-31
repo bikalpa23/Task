@@ -11,26 +11,37 @@
 
 <body>
     <div class="main-container flex">
-        <div class="side-container col-15">
-            <header>
-                <div class="sidenav">
-                    <div class="logo">
+        <section class="side-container col-15">
+            <header class="flex">
+                <div class="logo">
+                    <a href="./index.html"> <img src="./assets/img/mainlogo.png" alt="Logo"></a>
+                </div>
+                <nav class="sidenav">
+                    <div class="logo-m">
                         <a href="./index.html"> <img src="./assets/img/mainlogo.png" alt="Logo"></a>
                     </div>
-                    <div class="nav-links">
-                        <a href="./about.html"> About Us</a>
-                        <a href="./startup.html"> Startups</a>
-                        <a href="./visionaries.html"> Visionaries</a>
-                        <a href="./markrtplace.html">Marketplace</a>
-                        <a href="./advertise.html">Advertise</a>
-                        <a href="./contact.html">Contact</a>
+                    <div class="cross" id="cross-menu">
+                        <span>X</span>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="./about.html"> About Us</a></li>
+                        <li><a href="./startup.html"> Startups</a></li>
+                        <li><a href="./visionaries.html"> Visionaries</a></li>
+                        <li><a href="./markrtplace.html">Marketplace</a></li>
+                        <li><a href="./advertise.html">Advertise</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
                         <div class="search">
                             <a href="./search.html"><i class="fa-solid fa-magnifying-glass"></i></a>
                         </div>
-                    </div>
+                    </ul>
+                </nav>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
             </header>
-        </div>
+        </section>
         <section class="middle-section col-70">
             <div class="advertise mt-1">
                 <span>Advertisement</span>
@@ -159,7 +170,7 @@
             </section>
             <section class="small-ad-section mt-2">
                 <div class="small-ad-area flex">
-                    <h5>Your banner could be here</h5>
+                    <!-- <h5>Your banner could be here</h5> -->
                     <div class="small-ad-img-holder">
                         <img src="./assets/img/Frame.png" alt="" />
                     </div>
@@ -415,7 +426,7 @@
                     </div>
 
                     <div class="features-post-details">
-                        <span class="techlogy">Featured Post</span>
+                        <span class="technology">Featured Post</span>
                         <h5>
                             Lorem Ipsum sed ut <br />
                             perspiciatis unde omnis <br />
@@ -446,7 +457,7 @@
                         <img src="./assets/img/1st.png" alt="" />
                     </div>
                     <div class="three-col-details">
-                        <span class="techlogy">TECHNOLOGYY</span>
+                        <span class="technology">TECHNOLOGYY</span>
                         <h5>
                             Lorem Ipsum sed ut <br />
                             perspiciatis unde omnis <br />
@@ -470,7 +481,7 @@
                         <img src="./assets/img/2nd.png" alt="" />
                     </div>
                     <div class="three-col-details">
-                        <span class="techlogy">TECHNOLOGYY</span>
+                        <span class="technology">TECHNOLOGYY</span>
                         <h5>
                             Lorem Ipsum sed ut <br />
                             perspiciatis unde omnis <br />
@@ -494,7 +505,7 @@
                         <img src="./assets/img/3rd.png" alt="" />
                     </div>
                     <div class="three-col-details">
-                        <span class="techlogy">TECHNOLOGYY</span>
+                        <span class="technology">TECHNOLOGYY</span>
                         <h5>
                             Lorem Ipsum sed ut <br />
                             perspiciatis unde omnis <br />
@@ -550,7 +561,7 @@
 
             <section class="small-ad-section mt-2">
                 <div class="small-ad-area flex">
-                    <h5>Your banner could be here</h5>
+                    <!-- <h5>Your banner could be here</h5> -->
                     <div class="small-ad-img-holder">
                         <img src="./assets/img/Frame.png" alt="" />
                     </div>
@@ -568,7 +579,7 @@
                                 <img src="./assets/img/post-1.png" alt="" />
                             </div>
                             <div class="recent-post-title">
-                                <span class="techlogy">TECHNOLOGYY</span>
+                                <span class="technology">TECHNOLOGYY</span>
                                 <h5>Lorem Ipsum sed ut perspiciatis unde omnis iste natus</h5>
 
                                 <div class="flex author">
@@ -598,7 +609,7 @@
                                 <img src="./assets/img/post-2.png" alt="" />
                             </div>
                             <div class="recent-post-title">
-                                <span class="techlogy">TECHNOLOGYY</span>
+                                <span class="technology">TECHNOLOGYY</span>
                                 <h5>Lorem Ipsum sed ut perspiciatis unde omnis iste natus</h5>
 
                                 <div class="flex author">
@@ -628,7 +639,7 @@
                                 <img src="./assets/img/post-3.png" alt="" />
                             </div>
                             <div class="recent-post-title">
-                                <span class="techlogy">TECHNOLOGYY</span>
+                                <span class="technology">TECHNOLOGYY</span>
                                 <h5>Lorem Ipsum sed ut perspiciatis unde omnis iste natus</h5>
 
                                 <div class="flex author">
@@ -728,7 +739,8 @@
             </div>
         </section>
     </div>
+    <script src="https://kit.fontawesome.com/6937230e9e.js" crossorigin="anonymous"></script>
+    <script src="./script/script.js"></script>
 </body>
-<script src="https://kit.fontawesome.com/6937230e9e.js" crossorigin="anonymous"></script>
 
 </html>
