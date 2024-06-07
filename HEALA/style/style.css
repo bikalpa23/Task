@@ -13,6 +13,7 @@
     --footer-color: linear-gradient(180deg, rgba(53, 127, 193, 0) 1%, #357FC1 11.5%, #357FC1 100%);
     --baby-color: linear-gradient(90deg, #E84D0E 57%, rgba(232, 77, 14, 0.1) 100%);
     --news-yellow: linear-gradient(180deg, #FFCC00 60%, rgba(255, 204, 0, 0.2) 100%);
+    --news-white: linear-gradient(90deg, #FFFFFF 55%, rgba(255, 255, 255, 0.8) 61%, rgba(255, 255, 255, 0.1) 71.5%);
 
 }
 
@@ -169,7 +170,7 @@ h5 {
     text-align: left;
     /* max-width: 600px; */
     padding: 20px;
-    z-index: 1;
+    z-index: 2;
     text-align: justify;
 }
 
@@ -434,7 +435,7 @@ h5 {
     background: var(--white-color)
 }
 
-.first-section .news-content::before {
+.first-section .news-contents::before {
     background: var(--news-yellow);
 }
 
@@ -750,6 +751,8 @@ a {
 }
 
 /*   news-section   */
+
+
 .news-container {
     font-family: "Brevia-medium", sans-serif;
     background: var(--HEALA-green, #7CB928);
@@ -762,7 +765,7 @@ a {
 }
 
 .news-card {
-    gap: 40px;
+    gap: 20px;
     max-height: 398px;
 }
 
@@ -1037,4 +1040,272 @@ a {
 }
 
 /* News Page */
+.news-content {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+.navbar-news {
+    font-family: "Brevia-medium", sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 50px 46px;
+    background-color: white;
+}
+
+
+.logo img {
+    margin-left: 84px;
+    width: 243px;
+    height: 71px;
+}
+
+.nav-links-news {
+    font-family: "Brevia", sans-serif;
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-links-news li {
+    margin: 0 15px;
+}
+
+.nav-links-news a {
+    font-family: "Brevia-medium", sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #FF5722;
+    display: inline-block;
+    border-radius: 40px;
+    padding: 14px 18px 14px 17px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.contact-btn {
+    border-radius: 40px;
+    padding: 3px;
+    background-image: linear-gradient(270deg, #77C043 0.04%, #77C043 15.03%, #3582C2 44%, #F15A22 77.98%, #FFCB05 99.96%);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    width: fit-content;
+    cursor: pointer;
+}
+
+.contact-btn a {
+    display: inline-block;
+    border-radius: 40px;
+    padding: 14px 18px 14px 17px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: #fff;
+    color: var(--HEALA-blue, #357FC1);
+}
+
+
+.news-section {
+    position: relative;
+    width: 100%;
+    height: 533px;
+    /* Adjust as needed */
+    overflow: hidden;
+}
+
+.news-contents {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.overlay-contentt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--HEALA-orange, #E84D0E);
+
+    text-align: left;
+    /* max-width: 600px; */
+    padding: 20px;
+    z-index: 1;
+    text-align: justify;
+}
+
+.overlay-contentt h1 {
+    font-size: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.overlay-contentt p {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Brevia-medium";
+    width: 866px;
+}
+
+.news-contents::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.news-btn {
+    font-family: "Brevia-medium", sans-serif;
+    color: var(--HEALA-orange, #E84D0E);
+    background: var(--HEALA-yellow, #FFCC00);
+    border-radius: 40px;
+    padding: 8px 16px;
+    font-size: 24px;
+    font-weight: 700;
+    border: 2px solid var(--HEALA-yellow, #FFCC00);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.scroll a {
+    display: flex;
+    border-radius: 30px;
+    background-color: var(--HEALA-green, #7CB928);
+    padding: 4px;
+    cursor: pointer;
+    position: relative;
+    top: -65px;
+}
+
+
+.button {
+    position: relative;
+}
+
+
+
+.scroll {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.scroll img {
+    width: 30px;
+    height: 30px;
+}
+
+.news {
+    box-shadow: 4px 4px 15px 0px #00000080;
+    border-radius: 40px 40px 0 0;
+}
+
+.second-section .news-contents::before {
+    background: var(--news-white)
+}
+
+
+
+.overlay-con {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 650px;
+}
+
+.overlay-con .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--HEALA-orange, #E84D0E);
+    color: var(--HEALA-yellow, #FFCC00);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+
+.overlay-con h1 {
+    margin-bottom: 20px;
+    font-family: "Brevia-medium" sans-serif;
+    color: var(--HEALA-blue, #357FC1);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+}
+
+.overlay-con p {
+    margin-bottom: 20px;
+    font-family: "Brevia-medium";
+    color: var(--HEALA-blue, #357FC1);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.overlay-con span {
+    font-family: "Brevia-medium", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: var(--HEALA-green, #7CB928);
+    display: flex;
+}
+
+.new-button {
+    display: flex;
+}
+
+.news-cont {
+    margin-top: 40px;
+    font-family: "Brevia-medium", sans-serif;
+    /* background: var(--HEALA-green, #7CB928); */
+    padding: 60px 0 45px 28px;
+    gap: 32px;
+}
+
+
+.card-container {
+    box-shadow: 4px -2px 15px 0px #00000040;
+    border-radius: 40px 40px 0 0;
+    overflow: hidden;
+    max-width: 470px;
+    min-width: 470px;
+}
+
+.card-container::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 29%, rgba(255, 255, 255, 0.8) 41.5%, #FFFFFF 53.5%)
+}
