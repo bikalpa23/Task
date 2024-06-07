@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Brevia-medium";
+    src: url(../assets/fonts/Brevia-Medium.woff) format(".woff");
+}
+
+@font-face {
+    font-family: "Brevia-small";
+    src: url(../assets/fonts/Brevia-Bold.woff) format(".woff");
+}
+
+@font-face {
+    font-family: "Brevia-semibold";
+    src: url(../assets/fonts/Brevia-Semibold.woff) format(".woff");
+}
+
+body {
+    font-family: "Brevia-medium";
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 50px 46px;
+    background-color: white;
+}
+
+
+.logo img {
+    margin-left: 84px;
+    width: 243px;
+    height: 71px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    font-family: "Brevia-medium";
+    text-decoration: none;
+    color: white;
+    background-color: #FF5722;
+    display: inline-block;
+    border-radius: 40px;
+    padding: 14px 18px 14px 17px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.nav-links a:hover {
+    background-color: #E64A19;
+}
+
+.contact-button {
+    color: #4285F4;
+    background-color: transparent;
+    border: 2px solid #4285F4;
+    padding: 8px 18px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    border: 3px solid linear-gradient(270deg, #77C043 0.04%, #77C043 15.03%, #3582C2 44%, #F15A22 77.98%, #FFCB05 99.96%);
+
+
+}
+
+.contact-button:hover {
+    background-color: #4285F4;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+section {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+section::before,
+section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+
+.campaigns {
+    background-color: #e94e1b;
+    background-image: url('../assets/c.webp');
+    width: 100%;
+    height: 500px;
+}
+
+.campaigns::before {
+    top: 0;
+    background: linear-gradient(to bottom, #e94e1b, transparent);
+}
+
+.campaigns::after {
+    bottom: 0;
+    background: linear-gradient(to top, #e94e1b, transparent);
+}
+
+.chew-on-this {
+    background-color: #81b53e;
+    background-image: url('../assets/r-du-plessis-cXvqCw0m5WE-unsplash-1-1.webp');
+    width: 100%;
+    height: 500px;
+}
+
+.chew-on-this::before {
+    top: 0;
+    background: linear-gradient(to bottom, #81b53e, transparent);
+}
+
+.chew-on-this::after {
+    bottom: 0;
+    background: linear-gradient(to top, #81b53e, transparent);
+}
+
+.sugary-drinks-tax {
+    background-color: #f4a41d;
+    background-image: url('sugary-drinks-tax-background.jpg');
+    width: 100%;
+    height: 250px;
+}
+
+.sugary-drinks-tax::before {
+    top: 0;
+    background: linear-gradient(to bottom, #f4a41d, transparent);
+}
+
+.sugary-drinks-tax::after {
+    bottom: 0;
+    background: linear-gradient(to top, #f4a41d, transparent);
+}
+
+h1,
+h2 {
+    margin: 0 0 10px;
+}
+
+button {
+    background-color: #ffffff;
+    color: #81b53e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}

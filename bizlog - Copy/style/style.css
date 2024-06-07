@@ -1421,6 +1421,20 @@ a:hover {
     line-height: 28.8px;
 }
 
+.market-content {
+    display: none;
+}
+
+.market-title h3 {
+    font-size: 36px;
+}
+
+.market-title span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28.8px;
+}
+
 .established {
     text-align: center;
 }
@@ -2028,4 +2042,58 @@ header {
     .market-image {
         display: none;
     }
+
+    .market-content {
+        display: block;
+    }
+
+    .market-cont {
+        display: none;
+    }
+
+    .back-button {
+        padding: 9px 30px 9px 30px;
+        gap: 10px;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .back-btn {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -40px;
+    }
+
+    .company-list {
+        flex-direction: column;
+    }
+
+    .company-list-holder {
+        flex-direction: column
+    }
+
+    .company-sect {
+        flex-direction: column;
+    }
+
+    .estblished {
+        display: flex;
+        gap: 10px;
+    }
+
+    .company-view button {
+        width: 100%;
+    }
+
+    .company-desc p {
+        font-family: Helvetica;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .company-list-holder {
+        align-items: flex-start;
+    }
+
 }
