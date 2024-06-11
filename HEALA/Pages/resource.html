@@ -10,21 +10,90 @@
 
 <body>
     <header>
-        <nav class="navbar-news">
-            <div class="logo">
-                <img src="../assets/Vector.png" alt="HEALA Logo">
-            </div>
-            <ul class="nav-links-news">
-                <li><a href="#">Campaigns</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">About</a></li>
-                <li class="contact-btn">
-                    <a class="btn">Contact us</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="navbar-resource">
+                <div class="logo">
+                    <a href="../Pages/home.html"> <img src="../assets/Vector.png" alt="HEALA Logo"></a>
+                </div>
+                <ul class="nav-links-resource">
+                    <li><a href="../Pages/campaigns.html">Campaigns</a></li>
+                    <li><a href="../Pages/news.html">News</a></li>
+                    <li><a href="../Pages/resource.html">Resources</a></li>
+                    <li><a href="../Pages/about.html">About</a></li>
+                    <li class="contact-btn">
+                        <a class="btn">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+    <section class="resource-section first-section">
+        <div class="resource-contents">
+            <img src="../assets/resource.png" alt="First Image" class="background-image">
+            <div class="overlay-content-resource">
+                <div class="container">
+                    <h1>RESOURCES</h1>
+                    <p>Access to high-quality information: HEALA provides its coalition <br>partners with high-quality
+                        educational content around <br>nutrition, health and food justice to use in their programmes.
+                        Find
+                        this
+                        information below.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="button-resource">
+            <button class="resource-btn">Category <img src="../assets/down-v.png"></button>
+        </div>
+        <div class="scroll">
+            <a>
+                <img src="../assets/arrow-up.png" alt="arrow" id="scrollUp">
+            </a>
+        </div>
+    </section>
+    <section>
+        <div class="resource-info">
+            <img src="../assets/resource-1.png" alt="resource-pdf-1">
+            <img src="../assets/resource-2.png" alt="resource-pdf-1">
+            <img src="../assets/resource-3.png" alt="resource-pdf-1">
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="contact-us">
+                    <h2>Contact us</h2>
+                    <p><img src="../assets/mail.png" alt="mail icon"> info@heala.org</p>
+                    <p><i class="fa-solid fa-location-dot"></i> 37 Bath Avenue,<br><span> Rosebank,
+                            Johannesburg<span><br>
+                                <span>2196</span>
+                    </p>
+                    <p><img src="../assets/contact.png" alt="phone icon"> 087 265 2069</p>
+                </div>
+                <div class="newsletter-signup">
+                    <h2>Newsletter Signup</h2>
+                    <form action="#" method="post">
+                        <input type="text" name="name" placeholder="Name & Surname" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <button type="submit">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
 </body>
+<script src="../Script/script.js"></script>
+<script src="https://kit.fontawesome.com/6937230e9e.js" crossorigin="anonymous"></script>
 
 </html>
