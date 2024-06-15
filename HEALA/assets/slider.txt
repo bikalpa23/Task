@@ -1,0 +1,455 @@
+html
+<div class="rating_container ">
+                            <div class="slider_list flex_row" >
+                                <div class="rating_outer_wrapper ">
+                                    <div class="rating_inner_wrapper col33">
+                                        <div class="rating_header_wrapper flex_row">
+                                            <figure class="rating_pp_wrapper">
+                                                <img src="./assets/pheobe_tan.png" alt="pp" class="rating_pp">
+                                            </figure>
+        
+                                            <div class="rating_header_text_wrapper flex_col">
+                                                <span class="rating_name">Phoebe Tan</span>
+                                                <span class="rating_date">1 months ago</span>
+                                            </div>
+                                        </div>
+        
+                                        <div class="rating_star_wrapper flex_row">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                        </div>
+        
+                                        <div class="rating_paragraph_readmore_wrapper">
+                                            <div class="rating_paragraph_wrapper">
+                                                <p class="rating_paragraph">
+                                                    1st time liaise with them. Prompt response with excellent service. Thank you, Super Tomato.                                        
+                                                </p>
+        
+                                            </div>
+        
+                                            <div class="rating_readmore_wrapper">
+                                                <span class="rating_readmore"></span>
+        
+                                            </div>
+        
+                                        </div>
+                                    </div>                                
+                                </div>
+
+                                <div class="rating_outer_wrapper ">
+                                    <div class="rating_inner_wrapper col33">
+                                        <div class="rating_header_wrapper flex_row">
+                                            <figure class="rating_pp_wrapper">
+                                                <img src="./assets/koh_tin_pp.png" alt="pp" class="rating_pp">
+                                            </figure>
+        
+                                            <div class="rating_header_text_wrapper flex_col">
+                                                <span class="rating_name">Koh Ci En</span>
+                                                <span class="rating_date">2 months ago</span>
+                                            </div>
+                                        </div>
+        
+                                        <div class="rating_star_wrapper flex_row">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                        </div>
+        
+                                        <div class="rating_paragraph_readmore_wrapper">
+                                            <div class="rating_paragraph_wrapper">
+                                                <p class="rating_paragraph">
+                                                    Items seems sturdy and the team is quick to respond. One thing is the wheels 
+                                                    used for the partition can be changed to something more study but the team is 
+                                                    quick to provide remedy (i.e., provide more wheels) for free.                                        
+                                                </p>
+        
+                                            </div>
+        
+                                            <div class="rating_readmore_wrapper">
+                                                <span class="rating_readmore">Read More</span>
+        
+                                            </div>
+        
+                                        </div>
+                                    </div>                                
+                                </div>
+    
+                                <div class="rating_outer_wrapper ">
+                                    <div class="rating_inner_wrapper col33">
+                                        <div class="rating_header_wrapper flex_row">
+                                            <figure class="rating_pp_wrapper">
+                                                <img src="./assets/kimberly_pp.png" alt="pp" class="rating_pp">
+                                            </figure>
+        
+                                            <div class="rating_header_text_wrapper flex_col">
+                                                <span class="rating_name">kimberly koh</span>
+                                                <span class="rating_date">2 months ago</span>
+                                            </div>
+                                        </div>
+        
+                                        <div class="rating_star_wrapper flex_row">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                        </div>
+        
+                                        <div class="rating_paragraph_readmore_wrapper">
+                                            <div class="rating_paragraph_wrapper">
+                                                <p class="rating_paragraph">
+                                                    Very patient with me on the design, fast and efficient
+                                            
+                                                </p>
+        
+                                            </div>
+        
+                                            <div class="rating_readmore_wrapper">
+                                                <span class="rating_readmore"></span>
+        
+                                            </div>
+        
+                                        </div>
+                                    </div>
+        
+        
+                                    
+        
+                                </div>
+    
+                                <div class="rating_outer_wrapper ">
+                                    <div class="rating_inner_wrapper col33">
+                                        <div class="rating_header_wrapper flex_row">
+                                            <figure class="rating_pp_wrapper">
+                                                <img src="./assets/nazri_pp.png" alt="pp" class="rating_pp">
+                                            </figure>
+        
+                                            <div class="rating_header_text_wrapper flex_col">
+                                                <span class="rating_name">Nazri Roslan</span>
+                                                <span class="rating_date">4 months ago</span>
+                                            </div>
+                                        </div>
+        
+                                        <div class="rating_star_wrapper flex_row">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                        </div>
+        
+                                        <div class="rating_paragraph_readmore_wrapper">
+                                            <div class="rating_paragraph_wrapper">
+                                                <p class="rating_paragraph">
+                                                    Very prompt replies and work done by them are perfect, to-spec. 
+                                                    Great rates and also fussy free process from conversation to delivery. 
+                                                    Amazing company to work with, for prototyping too!                                        
+                                                </p>
+        
+                                            </div>
+        
+                                            <div class="rating_readmore_wrapper">
+                                                <span class="rating_readmore">Read More</span>
+        
+                                            </div>
+        
+                                        </div>
+                                    </div>
+        
+        
+                                    
+        
+                                </div>
+    
+                                <div class="rating_outer_wrapper ">
+                                    <div class="rating_inner_wrapper col33">
+                                        <div class="rating_header_wrapper flex_row">
+                                            <figure class="rating_pp_wrapper">
+                                                <img src="./assets/Alexandre Le-Burel.png" alt="pp" class="rating_pp">
+                                            </figure>
+        
+                                            <div class="rating_header_text_wrapper flex_col">
+                                                <span class="rating_name">Alexandre Le-Burel</span>
+                                                <span class="rating_date">5 months ago</span>
+                                            </div>
+                                        </div>
+        
+                                        <div class="rating_star_wrapper flex_row">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                        </div>
+        
+                                        <div class="rating_paragraph_readmore_wrapper">
+                                            <div class="rating_paragraph_wrapper">
+                                                <p class="rating_paragraph">
+                                                    The best help I got so far getting my product designed.. and five star coordination with the factory.Thank you 😊                                        
+                                                </p>
+        
+                                            </div>
+        
+                                            <div class="rating_readmore_wrapper">
+                                                <span class="rating_readmore"></span>
+        
+                                            </div>
+        
+                                        </div>
+                                    </div>
+        
+        
+                                    
+        
+                                </div>
+    
+                                <div class="rating_outer_wrapper ">
+                                    <div class="rating_inner_wrapper col33">
+                                        <div class="rating_header_wrapper flex_row">
+                                            <figure class="rating_pp_wrapper">
+                                                <img src="./assets/Wei_Bi_Ong.png" alt="pp" class="rating_pp">
+                                            </figure>
+        
+                                            <div class="rating_header_text_wrapper flex_col">
+                                                <span class="rating_name">Wei Bin Ong</span>
+                                                <span class="rating_date">8 months ago</span>
+                                            </div>
+                                        </div>
+        
+                                        <div class="rating_star_wrapper flex_row">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                        </div>
+        
+                                        <div class="rating_paragraph_readmore_wrapper">
+                                            <div class="rating_paragraph_wrapper">
+                                                <p class="rating_paragraph">
+                                                    Good communication, always receive fast replies for my enquiries. Had them made a couple prototype for my project,...                                        
+                                                </p>
+        
+                                            </div>
+        
+                                            <div class="rating_readmore_wrapper">
+                                                <span class="rating_readmore">Read more</span>
+        
+                                            </div>
+        
+                                        </div>
+                                    </div>
+        
+        
+                                    
+        
+                                </div>
+    
+                                <div class="rating_outer_wrapper ">
+                                    <div class="rating_inner_wrapper col33">
+                                        <div class="rating_header_wrapper flex_row">
+                                            <figure class="rating_pp_wrapper">
+                                                <img src="./assets/Rad Zaki.png" alt="pp" class="rating_pp">
+                                            </figure>
+        
+                                            <div class="rating_header_text_wrapper flex_col">
+                                                <span class="rating_name">Rad Zaki</span>
+                                                <span class="rating_date">8 months ago</span>
+                                            </div>
+                                        </div>
+        
+                                        <div class="rating_star_wrapper flex_row">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                        </div>
+        
+                                        <div class="rating_paragraph_readmore_wrapper">
+                                            <div class="rating_paragraph_wrapper">
+                                                <p class="rating_paragraph">
+                                                    Good people , good job                                        
+                                                </p>
+        
+                                            </div>
+        
+                                            <div class="rating_readmore_wrapper">
+                                                <span class="rating_readmore"></span>
+        
+                                            </div>
+        
+                                        </div>
+                                    </div>
+        
+        
+                                    
+        
+                                </div>
+    
+                                <div class="rating_outer_wrapper ">
+                                    <div class="rating_inner_wrapper col33">
+                                        <div class="rating_header_wrapper flex_row">
+                                            <figure class="rating_pp_wrapper">
+                                                <img src="./assets/Muhammad Hilmi.png" alt="pp" class="rating_pp">
+                                            </figure>
+        
+                                            <div class="rating_header_text_wrapper flex_col">
+                                                <span class="rating_name">Muhammad Hilmi</span>
+                                                <span class="rating_date">9 months ago</span>
+                                            </div>
+                                        </div>
+        
+                                        <div class="rating_star_wrapper flex_row">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                        </div>
+        
+                                        <div class="rating_paragraph_readmore_wrapper">
+                                            <div class="rating_paragraph_wrapper">
+                                                <p class="rating_paragraph">
+                                                    They are quick on the replies, providing quotation and easy to communicate. Items received were as promised with minimal...                                        
+                                                </p>
+        
+                                            </div>
+        
+                                            <div class="rating_readmore_wrapper">
+                                                <span class="rating_readmore">Read More</span>
+        
+                                            </div>
+        
+                                        </div>
+                                    </div>
+        
+        
+                                    
+        
+                                </div>
+    
+                                <div class="rating_outer_wrapper ">
+                                    <div class="rating_inner_wrapper col33">
+                                        <div class="rating_header_wrapper flex_row">
+                                            <figure class="rating_pp_wrapper">
+                                                <img src="./assets/Ryan_Woodhall.png" alt="pp" class="rating_pp">
+                                            </figure>
+        
+                                            <div class="rating_header_text_wrapper flex_col">
+                                                <span class="rating_name">Ryan Woodhall</span>
+                                                <span class="rating_date">10 months ago</span>
+                                            </div>
+                                        </div>
+        
+                                        <div class="rating_star_wrapper flex_row">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                            <img src="./assets/star.svg" alt="star" class="rating_star">
+                                        </div>
+        
+                                        <div class="rating_paragraph_readmore_wrapper">
+                                            <div class="rating_paragraph_wrapper">
+                                                <p class="rating_paragraph">
+                                                    Great communication! Work was efficient and of high quality.                                        
+                                                </p>
+        
+                                            </div>
+        
+                                            <div class="rating_readmore_wrapper">
+                                                <span class="rating_readmore"></span>
+        
+                                            </div>
+        
+                                        </div>
+                                    </div>
+        
+        
+                                    
+        
+                                </div>
+                            </div>
+                        </div>
+
+
+
+css
+
+.modern-slider{
+    position: relative;
+}
+
+.slick-slide {
+    float: left;
+    padding: 0;
+}
+
+  
+  
+/* ==== Slider Style === */
+  
+  
+  
+  .slider_list .next-arrow{
+    position:absolute;
+    top:50%;
+    right:0px;
+    width:45px;
+    height:45px;
+    /* background:rgba(0,0,0,.50); */
+    background: transparent;
+    border:0 none;
+    margin-top:-22.5px;
+    text-align:center;
+    cursor: pointer;
+    font:20px/45px FontAwesome;
+    color:#000;
+    z-index:5;
+    &:before{content:'\f105';}
+  }
+  .slider_list .prev-arrow{
+    position:absolute;
+    top:50%;
+    left:0px;
+    width:45px;
+    height:45px;
+    background:transparent;
+    border:0 none;
+    margin-top:-22.5px;
+    text-align:center;
+    font:20px/45px FontAwesome;
+    color:#000;
+    z-index:5;
+    cursor: pointer;
+    &:before{content:'\f104';}
+  }
+  
+
+<script>
+        $(document).ready(function(){
+  
+            $(".slider_list").slick({
+              autoplay:true,
+              autoplaySpeed:10000,
+              speed:600,
+              slidesToShow:3,
+              slidesToScroll:1,
+              pauseOnHover:false,
+              dots:false,
+              pauseOnDotsHover:true,
+              cssEase:'linear',
+             // fade:true,
+              draggable:true,
+              prevArrow:'<button class="prev-arrow"></button>',
+              nextArrow:'<button class="next-arrow"></button>', 
+            });
+            
+          })
+    </script>     

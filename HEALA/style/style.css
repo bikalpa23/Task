@@ -82,20 +82,53 @@ h5 {
 /* Home COntainer */
 
 /* ....................................................................Navbar...................................................................... */
-.navbar {
-    font-family: "Brevia-medium", sans-serif;
+
+
+.header nav ul li {
+    list-style: none;
     display: flex;
-    align-items: center;
-    padding: 50px 46px;
-    background-color: white;
 }
 
+.main-container {
+    display: flex;
 
-.logo img {
-    margin-left: 84px;
-    width: 243px;
-    height: 71px;
 }
+
+header {
+    flex: 0 0 60%;
+    z-index: 8;
+}
+
+.main-content {
+    flex: 0 0 40%;
+}
+
+.diva {
+
+    position: relative;
+    display: flex;
+    background-image: url(../assets/red-hero-banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    flex: 0 0 60%;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.flex {
+    position: relative;
+}
+
 
 .nav-links {
     font-family: "Brevia", sans-serif;
@@ -108,30 +141,63 @@ h5 {
     margin: 0 15px;
 }
 
+.btn {
+    font-family: "brevia-medium", sans-serif;
+    border-radius: 40px;
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    background-clip: padding-box;
+    outline: none;
+}
+
 .nav-links a {
-    font-family: "Brevia-medium", sans-serif;
-    text-decoration: none;
-    color: white;
-    background-color: #FF5722;
+    font-family: "brevia-medium", sans-serif;
+    color: var(--HEALA-orange, #E84D0E);
     display: inline-block;
     border-radius: 40px;
     padding: 14px 18px 14px 17px;
     font-size: 24px;
     font-weight: 700;
     line-height: 20px;
+    text-decoration: none;
+    margin-top: 20px;
 }
 
+.overlay {
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(90deg, rgba(232, 77, 14, 0.9) 7.45%, rgba(232, 77, 14, 0.709368) 63.5%, rgba(232, 77, 14, 0.3) 105.39%); */
+    top: 0;
+    left: 0;
+    position: absolute;
 
-.contact-btn {
+}
+
+.flex {
+    z-index: 4;
+}
+
+.main-content {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 6.82%, rgba(255, 255, 255, 0.7) 11.49%, #FFFFFF 14.78%);
+
+}
+
+.contact-butn {
     border-radius: 40px;
     padding: 3px;
     background-image: linear-gradient(270deg, #77C043 0.04%, #77C043 15.03%, #3582C2 44%, #F15A22 77.98%, #FFCB05 99.96%);
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     width: fit-content;
     cursor: pointer;
+    margin-top: 20px;
+    margin-left: 208px;
 }
 
-.contact-btn a {
+.butn {
     display: inline-block;
     border-radius: 40px;
     padding: 14px 18px 14px 17px;
@@ -140,8 +206,13 @@ h5 {
     line-height: 20px;
     background-color: #fff;
     color: var(--HEALA-blue, #357FC1);
+    border: none;
 }
 
+.logo-side {
+    padding-left: 84px;
+    padding-top: 120px;
+}
 
 /*.................................................................. Section ................................................................*/
 
@@ -162,7 +233,14 @@ h5 {
 .background-image {
     width: 100%;
     height: 100%;
-    /* object-fit: cover; */
+    object-fit: cover;
+    display: block;
+}
+
+.background-imagee {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
     display: block;
 }
 
@@ -577,11 +655,6 @@ footer {
 /*............................. Home Page..................... */
 
 
-
-body {
-    font-family: "Brevia", sans-serif;
-}
-
 .heala-container {
     overflow: hidden;
 }
@@ -664,7 +737,7 @@ a {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 6.82%, rgba(255, 255, 255, 0.7) 11.49%, #FFFFFF 14.78%);
     z-index: -1;
 } */
-.overlay-header{
+.overlay-header {
     position: absolute;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 6.82%, rgba(255, 255, 255, 0.7) 11.49%, #FFFFFF 14.78%);
 
@@ -1840,7 +1913,7 @@ a {
 }
 
 .message-section {
-    background-color: #ff7e00;
+    background: linear-gradient(180deg, rgba(232, 77, 14, 0) -30%, #E84D0E 10%);
     color: white;
     width: 100%;
     padding: 20px;
@@ -1857,16 +1930,27 @@ form {
     align-items: left;
 }
 
-form input,
-form textarea {
-    width: 60%;
-    height: 77px;
+form input {
+    width: 946px;
+    height: 70px;
     border-radius: 26px;
     margin-bottom: 20px;
     padding: 20px;
-    margin-left: 84px;
+    margin-left: 140px;
     border: none;
     color: red;
+}
+
+form textarea {
+    width: 946px;
+    height: 292px;
+    top: 1149px;
+    left: 84px;
+    gap: 0px;
+    border-radius: 26px;
+    opacity: 0px;
+    margin-left: 140px;
+    padding: 20px;
 }
 
 form button {
@@ -1879,16 +1963,22 @@ form button {
     left: 84px;
     gap: 0px;
     border-radius: 40px;
-    margin-left: 84px;
-    margin-bottom: 54px;
+    margin-left: 140px;
+    margin-top: 30px;
+    color: var(--HEALA-orange, #E84D0E);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+
 }
 
 form button:hover {
     background-color: #e6b800;
 }
 
-.cont-footer {
-    background-color: #ff7e00;
+.social-media {
+    /* background: linear-gradient(180deg, rgba(232, 77, 14, 0) -30%, #E84D0E 10%); */
     padding: 10px;
     width: 100%;
     display: flex;
@@ -1937,7 +2027,7 @@ form button:hover {
     font-weight: 700;
     line-height: 48px;
     text-align: left;
-    padding: 0 0 40px 84px;
+    padding: 0 0 40px 140px;
 }
 
 
@@ -1950,4 +2040,69 @@ textarea[type=text]::placeholder {
     line-height: 48px;
     text-align: left;
 
+}
+
+/* .........................TAX............SUGAR............... */
+
+.tax-image {
+    position: relative;
+    background-image: url(../assets/3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.poision-image {
+    z-index: 1;
+    width: 152px;
+    height: 286.01px;
+    margin-left: 138px;
+    padding-top: 20px;
+}
+
+.poision-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.tax-titles h1 {
+    color: var(--HEALA-orange, #E84D0E);
+    line-height: 1;
+    padding-top: 66px;
+}
+
+.tax-titles p {
+    /* color: var(--HEALA-orange, #E84D0E); */
+    color: white;
+}
+
+.banner-content {
+    display: flex;
+    gap: 66px;
+}
+
+.overlay-poi {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #FFCC00 57%, rgba(255, 204, 0, 0.8) 70.5%, rgba(255, 204, 0, 0.1) 100%);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.tax-titles {
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}
+
+.poi-title {
+    z-index: 2;
+}
+
+.poi-des {
+    z-index: 8;
+    width: 100%;
+    height: 100%;
 }
