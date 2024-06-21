@@ -176,7 +176,113 @@ ul li {
     list-style: none;
 }
 
+.heala-container {
+    overflow: hidden;
+}
 
+.home-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    mix-blend-mode: screen;
+}
+
+.contact-btn {
+    border-radius: 40px;
+    padding: 3px;
+    background-image: linear-gradient(270deg, #77C043 0.04%, #77C043 15.03%, #3582C2 44%, #F15A22 77.98%, #FFCB05 99.96%);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    width: fit-content;
+}
+
+.contact-btn a {
+    display: inline-block;
+    border-radius: 40px;
+    padding: 13.5px 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: #fff;
+    color: var(--HEALA-blue, #357FC1);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-slider-part {
+    position: relative;
+    display: flex;
+    min-height: 816px;
+    flex: 0 0 auto;
+    width: 66.66666667%
+}
+
+/* .hero-slider{
+    position: absolute; 
+    inset: 0; 
+    z-index: -1;
+}
+.hero-container{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+} */
+.home-wrapper {
+    min-height: 826px;
+
+    .hero-logo-part {
+        flex-basis: 34%;
+        position: relative;
+        margin-right: 100px;
+        align-items: flex-end;
+        gap: 172px;
+    }
+
+    .hero-logo-part:before {
+        content: '';
+        width: 260px;
+        height: 100%;
+        position: absolute;
+        left: -70px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 6.82%, rgba(255, 255, 255, 0.7) 11.49%, #FFFFFF 14.78%);
+    }
+
+    .hero-text p {
+        font-size: 74px;
+        line-height: 90px;
+        text-align: left;
+        color: #fff;
+    }
+
+    .hero-slider::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(90deg, rgba(232, 77, 14, 0.9) 7.45%, rgba(232, 77, 14, 0.709368) 63.5%, rgba(232, 77, 14, 0.3) 105.39%);
+        opacity: 80%;
+        z-index: 1;
+    }
+
+    .hero-text {
+        position: relative;
+        /* Ensure the text appears above the overlay */
+        z-index: 2;
+        top: 10%;
+        left: 10%;
+    }
+
+}
+
+.header-wrapper {
+    align-items: center;
+    justify-content: space-between;
+}
 
 .flex {
     position: relative;
